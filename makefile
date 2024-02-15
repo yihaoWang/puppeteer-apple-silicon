@@ -3,7 +3,7 @@
 ARCH := $(shell uname -m)
 PLATFORM :=
 
-ifeq ($(ARCH),aarch64)
+ifeq ($(ARCH),arm64)
 PLATFORM := --platform=linux/arm64
 endif
 
